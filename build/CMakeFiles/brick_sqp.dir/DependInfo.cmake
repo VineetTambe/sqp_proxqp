@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vrex/symForce/symforce_ws/sqp_proxQp/example/brick_sqp.cpp" "CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o" "gcc" "CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o.d"
+  "/home/vrex/symForce/symforce_ws/sqp_proxqp/example/brick_sqp.cpp" "CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o" "gcc" "CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o.d"
   )
 
 # Targets to which this target links.

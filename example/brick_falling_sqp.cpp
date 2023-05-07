@@ -52,6 +52,11 @@ int main()
     // qp_solver.C_ = -J * dt;
     // qp_solver.C_spa_ = qp_solver.C_.sparseView();
     auto C = -J * dt;
+    proxsuite::proxqp::sparse::QP<T, int> qp_(dim, n_eq, n_in);
+    qp_.settings.eps_abs = 1e-9;
+    qp_.settings.initial_guess = InitialGuessStatus::WARM_START_WITH_PREVIOUS_RESULT;
+    qp_.settings.verbose = false;
+
     for (int i = 0; i < iters; i++)
     {
       std::cout << "iteration: " << i << "\n";
@@ -68,10 +73,12 @@ int main()
       std::cout << "u = " << qp_solver.u_ << std::endl;
       std::cout << "l = " << qp_solver.l_ << std::endl;
 
-      std::pair<Eigen::VectorXd, Eigen::VectorXd> result = qp_solver.runQP();
+      std::pair<Eigen::VectorXd, Eigen::VectorXd> result = qp_solver.runQP(qp_);
 
-      auto vk_1 = result.first;
-      dual = result.second;
+      // auto vk_1 = result.first;
+      // dual = result.second;
+
+      auto vk_1 = qp_.results.x;
 
       qk = qk + vk_1 * dt;
       vk << vk_1;

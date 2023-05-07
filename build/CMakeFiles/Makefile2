@@ -54,10 +54,10 @@ RM = /home/vrex/.local/lib/python3.10/site-packages/cmake/data/bin/cmake -E rm -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vrex/symForce/symforce_ws/sqp_proxQp
+CMAKE_SOURCE_DIR = /home/vrex/symForce/symforce_ws/sqp_proxqp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vrex/symForce/symforce_ws/sqp_proxQp/build
+CMAKE_BINARY_DIR = /home/vrex/symForce/symforce_ws/sqp_proxqp/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/brick_falling_sqp.dir/clean
 CMakeFiles/sqp_proxqp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqp_proxqp.dir/build.make CMakeFiles/sqp_proxqp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sqp_proxqp.dir/build.make CMakeFiles/sqp_proxqp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles --progress-num=5,6 "Built target sqp_proxqp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles --progress-num=5,6 "Built target sqp_proxqp"
 .PHONY : CMakeFiles/sqp_proxqp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sqp_proxqp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sqp_proxqp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles 0
 .PHONY : CMakeFiles/sqp_proxqp.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/sqp_proxqp.dir/clean:
 CMakeFiles/brick_sqp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brick_sqp.dir/build.make CMakeFiles/brick_sqp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brick_sqp.dir/build.make CMakeFiles/brick_sqp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles --progress-num=3,4 "Built target brick_sqp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles --progress-num=3,4 "Built target brick_sqp"
 .PHONY : CMakeFiles/brick_sqp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/brick_sqp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brick_sqp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles 0
 .PHONY : CMakeFiles/brick_sqp.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/brick_sqp.dir/clean:
 CMakeFiles/brick_falling_sqp.dir/all: CMakeFiles/sqp_proxqp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brick_falling_sqp.dir/build.make CMakeFiles/brick_falling_sqp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/brick_falling_sqp.dir/build.make CMakeFiles/brick_falling_sqp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles --progress-num=1,2 "Built target brick_falling_sqp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles --progress-num=1,2 "Built target brick_falling_sqp"
 .PHONY : CMakeFiles/brick_falling_sqp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/brick_falling_sqp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/brick_falling_sqp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles 0
 .PHONY : CMakeFiles/brick_falling_sqp.dir/rule
 
 # Convenience name for target.

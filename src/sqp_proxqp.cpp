@@ -75,13 +75,13 @@ void SQP_ProxQP<T>::solveQP(Eigen::VectorXd& primal, Eigen::VectorXd& dual)
 }
 
 template <typename T>
-std::pair<Eigen::VectorXd, Eigen::VectorXd> SQP_ProxQP<T>::runQP()
+std::pair<Eigen::VectorXd, Eigen::VectorXd> SQP_ProxQP<T>::runQP(proxsuite::proxqp::sparse::QP<T, int>& qp_)
 {
-  proxsuite::proxqp::sparse::QP<T, int> qp_(dim_, n_eq_, n_in_);
+  // proxsuite::proxqp::sparse::QP<T, int> qp_(dim_, n_eq_, n_in_);
 
-  qp_.settings.eps_abs = 1e-9;
-  qp_.settings.initial_guess = InitialGuessStatus::WARM_START_WITH_PREVIOUS_RESULT;
-  qp_.settings.verbose = false;
+  // qp_.settings.eps_abs = 1e-9;
+  // qp_.settings.initial_guess = InitialGuessStatus::WARM_START_WITH_PREVIOUS_RESULT;
+  // qp_.settings.verbose = false;
 
   std::pair<Eigen::VectorXd, Eigen::VectorXd> result;
 

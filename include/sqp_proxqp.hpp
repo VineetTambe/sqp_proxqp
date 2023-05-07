@@ -56,7 +56,7 @@ public:
   void setQPParams(Eigen::MatrixXd H, Eigen::MatrixXd g, Eigen::MatrixXd A, Eigen::VectorXd b, Eigen::MatrixXd C,
                    Eigen::VectorXd l, Eigen::VectorXd u, Eigen::VectorXd x);
   void solveQP(Eigen::VectorXd& primal, Eigen::VectorXd& dual);
-  std::pair<Eigen::VectorXd, Eigen::VectorXd> runQP();
+  std::pair<Eigen::VectorXd, Eigen::VectorXd> runQP(proxsuite::proxqp::sparse::QP<T, int>& qp);
   // proxsuite::proxqp::sparse::QP<T, int> getQPObject();
   // void setQPObject(proxsuite::proxqp::sparse::QP<T, int>& qp);
 };

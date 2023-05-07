@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vrex/symForce/symforce_ws/sqp_proxQp/src/sqp_proxqp.cpp" "CMakeFiles/sqp_proxqp.dir/src/sqp_proxqp.cpp.o" "gcc" "CMakeFiles/sqp_proxqp.dir/src/sqp_proxqp.cpp.o.d"
+  "/home/vrex/symForce/symforce_ws/sqp_proxqp/src/sqp_proxqp.cpp" "CMakeFiles/sqp_proxqp.dir/src/sqp_proxqp.cpp.o" "gcc" "CMakeFiles/sqp_proxqp.dir/src/sqp_proxqp.cpp.o.d"
   )
 
 # Targets to which this target links.

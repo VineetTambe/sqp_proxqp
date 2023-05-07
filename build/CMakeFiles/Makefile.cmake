@@ -79,7 +79,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/vrex/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake"
   "/home/vrex/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux.cmake"
   "/home/vrex/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.25/Modules/Platform/UnixPaths.cmake"
-  "/home/vrex/symForce/symforce_ws/sqp_proxQp/CMakeLists.txt"
+  "/home/vrex/symForce/symforce_ws/sqp_proxqp/CMakeLists.txt"
   "CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeSystem.cmake"
   "/usr/local/lib/cmake/proxsuite/proxsuiteConfig.cmake"

@@ -1,5 +1,5 @@
-/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles/sqp_proxqp.dir
-/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles/brick_sqp.dir
-/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles/brick_falling_sqp.dir
-/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles/edit_cache.dir
-/home/vrex/symForce/symforce_ws/sqp_proxQp/build/CMakeFiles/rebuild_cache.dir
+/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles/sqp_proxqp.dir
+/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles/brick_sqp.dir
+/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles/brick_falling_sqp.dir
+/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles/edit_cache.dir
+/home/vrex/symForce/symforce_ws/sqp_proxqp/build/CMakeFiles/rebuild_cache.dir

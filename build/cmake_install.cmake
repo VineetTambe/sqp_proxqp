@@ -1,4 +1,4 @@
-# Install script for directory: /home/vrex/symForce/symforce_ws/sqp_proxQp
+# Install script for directory: /home/vrex/symForce/symforce_ws/sqp_proxqp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vrex/symForce/symforce_ws/sqp_proxQp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vrex/symForce/symforce_ws/sqp_proxqp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
