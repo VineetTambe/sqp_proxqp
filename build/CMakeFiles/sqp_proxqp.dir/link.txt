@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsqp_proxqp.a CMakeFiles/sqp_proxqp.dir/src/sqp_proxqp.cpp.o
+/usr/bin/ranlib libsqp_proxqp.a

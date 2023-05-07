@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o"
+  "CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o.d"
+  "brick_sqp"
+  "brick_sqp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/brick_sqp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -DNDEBUG -rdynamic CMakeFiles/brick_sqp.dir/example/brick_sqp.cpp.o -o brick_sqp 

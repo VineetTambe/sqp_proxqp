@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -DNDEBUG -rdynamic CMakeFiles/brick_falling_sqp.dir/example/brick_falling_sqp.cpp.o -o brick_falling_sqp  libsqp_proxqp.a 
