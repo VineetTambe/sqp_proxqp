@@ -43,14 +43,6 @@ int main()
 
   try
   {
-    // qp_solver.H_ = mass_matrix;
-    // qp_solver.H_spa_ = qp_solver.H_.sparseView();
-    // qp_solver.A_ = A;
-    // qp_solver.A_spa_ = A.sparseView();
-    // qp_solver.b_ = qp_solver.A_spa_ * vk;
-
-    // qp_solver.C_ = -J * dt;
-    // qp_solver.C_spa_ = qp_solver.C_.sparseView();
     auto C = -J * dt;
     proxsuite::proxqp::sparse::QP<T, int> qp_(dim, n_eq, n_in);
     qp_.settings.eps_abs = 1e-9;
@@ -63,15 +55,12 @@ int main()
       // This will be handeled by qp_solver.setQPParams in in the future when linearizaiton is implemented
       auto g = mass_matrix * (dt * gravity - vk);
       auto u = J * qk;  // upper bound
-      // auto l = C.spar * vk;
+
+      // Update A and b if necessary
+
+      // l = C.spar * vk;
 
       qp_solver.setQPParams(mass_matrix, g, A, b, C, l, u, vk);
-
-      std::cout << "vk = " << vk << std::endl;
-
-      std::cout << "g = " << qp_solver.g__ << std::endl;
-      std::cout << "u = " << qp_solver.u_ << std::endl;
-      std::cout << "l = " << qp_solver.l_ << std::endl;
 
       std::pair<Eigen::VectorXd, Eigen::VectorXd> result = qp_solver.runQP(qp_);
 

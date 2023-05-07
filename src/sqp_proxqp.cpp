@@ -6,14 +6,6 @@
  */
 
 #include <sqp_proxqp.hpp>
-/*
-#include <proxsuite/proxqp/sparse/sparse.hpp>  // get the sparse API of ProxQP
-#include <Eigen/Core>
-#include <proxsuite/helpers/optional.hpp>  // for c++14
-#include <proxsuite/proxqp/sparse/sparse.hpp>*/
-// using namespace proxsuite;
-// using namespace proxsuite::proxqp;
-// using proxsuite::nullopt;
 
 namespace sqp_proxqp
 {
@@ -24,9 +16,6 @@ SQP_ProxQP<T>::SQP_ProxQP(long dim, long n_eq, long n_in, long iters)
   dim_ = dim;
   n_eq_ = n_eq;
   n_in_ = n_in;
-
-  // setQPParams(H, Eigen::VectorXd(dim, 1), Eigen::MatrixXd(n_eq, dim), Eigen::VectorXd(n_eq),
-  //             Eigen::MatrixXd(n_in, dim), Eigen::VectorXd(n_in), Eigen::VectorXd(n_in));
 }
 
 template <typename T>
@@ -77,12 +66,6 @@ void SQP_ProxQP<T>::solveQP(Eigen::VectorXd& primal, Eigen::VectorXd& dual)
 template <typename T>
 std::pair<Eigen::VectorXd, Eigen::VectorXd> SQP_ProxQP<T>::runQP(proxsuite::proxqp::sparse::QP<T, int>& qp_)
 {
-  // proxsuite::proxqp::sparse::QP<T, int> qp_(dim_, n_eq_, n_in_);
-
-  // qp_.settings.eps_abs = 1e-9;
-  // qp_.settings.initial_guess = InitialGuessStatus::WARM_START_WITH_PREVIOUS_RESULT;
-  // qp_.settings.verbose = false;
-
   std::pair<Eigen::VectorXd, Eigen::VectorXd> result;
 
   qp_.init(H_spa_, g__, A_spa_, b_, C_spa_, l_, u_);
